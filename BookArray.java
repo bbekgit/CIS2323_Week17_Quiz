@@ -4,9 +4,9 @@ public class BookArray
 
     public static void main(String[] args)
 
-                {
+        {
 
-                  Book someBook[] = new Book[10];
+          Book someBook[] = new Book[10];
 
           int x;
 
@@ -34,8 +34,8 @@ public class BookArray
 
            for(x = 0; x < someBook.length; ++x)
 
-               System.out.println("Book: " + someBook[x].getTitle() + " costs:-- $" + someBook[x].getPrice());
+            System.out.println("Book: " + someBook[x].getTitle() + " costs:-- $" + someBook[x].getPrice());
 
-                }
+        }
 
 }

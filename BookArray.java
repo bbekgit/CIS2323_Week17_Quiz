@@ -3,8 +3,7 @@ public class BookArray
 {
 
     public static void main(String[] args)
-
-        {
+    {
 
           Book someBook[] = new Book[10];
 
@@ -36,6 +35,6 @@ public class BookArray
 
             System.out.println("Book: " + someBook[x].getTitle() + " costs:-- $" + someBook[x].getPrice());
 
-        }
+    }
 
 }
